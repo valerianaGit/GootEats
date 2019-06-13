@@ -16,6 +16,7 @@
 		923DD28022B19BCB009422ED /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD27F22B19BCB009422ED /* FoodCategory.swift */; };
 		923DD28222B1A067009422ED /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28122B1A067009422ED /* Recipe.swift */; };
 		923DD28422B1A0B8009422ED /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28322B1A0B8009422ED /* Dataset.swift */; };
+		923DD28822B2F80C009422ED /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28722B2F80C009422ED /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		923DD27F22B19BCB009422ED /* FoodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		923DD28122B1A067009422ED /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		923DD28322B1A0B8009422ED /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		923DD28722B2F80C009422ED /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +86,13 @@
 			isa = PBXGroup;
 			children = (
 				923DD25F22B19AB2009422ED /* AppDelegate.swift */,
-				923DD26122B19AB2009422ED /* ViewController.swift */,
+				923DD28622B2F721009422ED /* Controller */,
 				923DD26322B19AB3009422ED /* Main.storyboard */,
 				923DD26622B19AB5009422ED /* Assets.xcassets */,
 				923DD26822B19AB5009422ED /* LaunchScreen.storyboard */,
 				923DD26B22B19AB5009422ED /* Info.plist */,
 				923DD28522B1A1DA009422ED /* Model */,
+				923DD28922B2F90A009422ED /* View */,
 			);
 			path = GootEats;
 			sourceTree = "<group>";
@@ -111,6 +114,22 @@
 				923DD28322B1A0B8009422ED /* Dataset.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		923DD28622B2F721009422ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				923DD26122B19AB2009422ED /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		923DD28922B2F90A009422ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				923DD28722B2F80C009422ED /* CategoryCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +238,7 @@
 				923DD28022B19BCB009422ED /* FoodCategory.swift in Sources */,
 				923DD26022B19AB2009422ED /* AppDelegate.swift in Sources */,
 				923DD28222B1A067009422ED /* Recipe.swift in Sources */,
+				923DD28822B2F80C009422ED /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
