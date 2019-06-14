@@ -18,6 +18,7 @@
 		923DD28422B1A0B8009422ED /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28322B1A0B8009422ED /* Dataset.swift */; };
 		923DD28822B2F80C009422ED /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28722B2F80C009422ED /* CategoryCell.swift */; };
 		923DD28B22B2FBB9009422ED /* RecipesSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28A22B2FBB9009422ED /* RecipesSelectionVC.swift */; };
+		923DD28D22B3006E009422ED /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923DD28C22B3006E009422ED /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		923DD28322B1A0B8009422ED /* Dataset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
 		923DD28722B2F80C009422ED /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		923DD28A22B2FBB9009422ED /* RecipesSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesSelectionVC.swift; sourceTree = "<group>"; };
+		923DD28C22B3006E009422ED /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				923DD28722B2F80C009422ED /* CategoryCell.swift */,
+				923DD28C22B3006E009422ED /* RecipeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				923DD26222B19AB2009422ED /* HomeVC.swift in Sources */,
 				923DD28422B1A0B8009422ED /* Dataset.swift in Sources */,
 				923DD28022B19BCB009422ED /* FoodCategory.swift in Sources */,
+				923DD28D22B3006E009422ED /* RecipeCell.swift in Sources */,
 				923DD26022B19AB2009422ED /* AppDelegate.swift in Sources */,
 				923DD28B22B2FBB9009422ED /* RecipesSelectionVC.swift in Sources */,
 				923DD28222B1A067009422ED /* Recipe.swift in Sources */,
